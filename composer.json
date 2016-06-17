@@ -1,0 +1,36 @@
+{
+  "name": "PeacockCarter/FilterPaymentMethodsOnAttributeSet",
+  "type": "magento-module",
+  "license": "OSL-3.0",
+  "homepage": "https://peacock-carter/magento-filter-payment-methods-on-attribute-set",
+  "description": "Filter payment methods based on attribute set.",
+  "authors": [
+    {
+      "name": "Richie McFarlane - @weaves81",
+      "email": "dev@peacockcarter.co.uk"
+    }
+  ],
+  "extra": {
+    "map": [
+      [
+        "app/etc/modules/PeacockCarter_FilterPaymentMethodsOnAttributeSet.xml",
+        "app/etc/modules/PeacockCarter_FilterPaymentMethodsOnAttributeSet.xml"
+      ],
+      [
+        "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/etc/config.xml",
+        "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/etc/config.xml"
+      ],
+      [
+        "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/etc/system.xml",
+        "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/etc/system.xml"
+      ],
+      [
+        "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/Model/Observer.php",
+        "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/Model/Observer.php"
+      ]
+    ]
+  },
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*",
+  }
+}
