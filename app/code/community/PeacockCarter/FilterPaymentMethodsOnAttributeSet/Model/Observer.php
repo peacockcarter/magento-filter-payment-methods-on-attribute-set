@@ -153,11 +153,9 @@ class PeacockCarter_FilterPaymentMethodsOnAttributeSet_Model_Observer
      */
     private function isAttributeSetAllowed()
     {
-        $attributeSets = explode(',', $this->_attributeSetsInCart);
-
+        $attributeSets                 = explode(',', $this->_attributeSetsInCart);
         $restrictedAttributeSetsInCart = array_intersect($attributeSets, $this->_restrictedAttributeSets);
-        Mage::log($attributeSets, null, 'test.log');
-        Mage::log($restrictedAttributeSetsInCart, null, 'test.log');
+
         return count($restrictedAttributeSetsInCart) === 0;
     }
 }
