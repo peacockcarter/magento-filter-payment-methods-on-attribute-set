@@ -29,6 +29,10 @@
         "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/Model/Observer.php"
       ],
       [
+        "app/etc/modules/PeacockCarter_Adminhtml.xml",
+        "app/etc/modules/PeacockCarter_Adminhtml.xml"
+      ],
+      [
         "app/code/community/PeacockCarter/Adminhtml/etc/config.xml",
         "app/code/community/PeacockCarter/Adminhtml/etc/config.xml"
       ],
