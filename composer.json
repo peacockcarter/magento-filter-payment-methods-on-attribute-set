@@ -27,10 +27,18 @@
       [
         "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/Model/Observer.php",
         "app/code/community/PeacockCarter/FilterPaymentMethodsOnAttributeSet/Model/Observer.php"
+      ],
+      [
+        "app/code/community/PeacockCarter/Adminhtml/etc/config.xml",
+        "app/code/community/PeacockCarter/Adminhtml/etc/config.xml"
+      ],
+      [
+        "app/code/community/PeacockCarter/Adminhtml/Model/System?config/Source/Attributeset.php",
+        "app/code/community/PeacockCarter/Adminhtml/Model/System?config/Source/Attributeset.php"
       ]
     ]
   },
   "require": {
-    "magento-hackathon/magento-composer-installer": "*",
+    "magento-hackathon/magento-composer-installer": "*"
   }
 }
